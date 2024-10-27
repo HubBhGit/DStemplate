@@ -1,6 +1,6 @@
-from src.DStemplate.config.configuration import ConfigurationManager
-from src.DStemplate.components.model_trainer import ModelTrainer
-from src.DStemplate import logger
+from src.Winequality.config.configuration import ConfigurationManager
+from src.Winequality.components.model_trainer import ModelTrainer
+from src.Winequality import logger
 
 STAGE_NAME = "Model Trainer stage"
 

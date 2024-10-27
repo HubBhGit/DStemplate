@@ -1,7 +1,7 @@
 import os
-from src.DStemplate import logger
+from src.Winequality import logger
 import pandas as pd
-from src.DStemplate.entity.config_entity import (DataValidationConfig)
+from src.Winequality.entity.config_entity import (DataValidationConfig)
 
 class DataValidation:
     def __init__(self, config: DataValidationConfig):

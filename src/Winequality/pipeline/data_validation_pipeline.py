@@ -1,6 +1,6 @@
-from src.DStemplate.config.configuration import ConfigurationManager
-from src.DStemplate.components.data_validation import DataValidation
-from src.DStemplate import logger
+from src.Winequality.config.configuration import ConfigurationManager
+from src.Winequality.components.data_validation import DataValidation
+from src.Winequality import logger
 
 STAGE_NAME = "Data Validation stage"
 

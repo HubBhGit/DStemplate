@@ -1,7 +1,7 @@
-from src.DStemplate.constants import *
-from src.DStemplate.utils.common import read_yaml, create_directories
+from src.Winequality.constants import *
+from src.Winequality.utils.common import read_yaml, create_directories
 
-from src.DStemplate.entity.config_entity import (DataIngestionConfig,DataValidationConfig,
+from src.Winequality.entity.config_entity import (DataIngestionConfig,DataValidationConfig,
                                                  DataTransformationConfig,ModelTrainerConfig)
 
 class ConfigurationManager:

@@ -1,10 +1,10 @@
 import pandas as pd
 import os
-from src.DStemplate import logger
+from src.Winequality import logger
 from sklearn.linear_model import ElasticNet
 import joblib
 
-from src.DStemplate.entity.config_entity import ModelTarinerConfig
+from src.Winequality.entity.config_entity import ModelTarinerConfig
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):

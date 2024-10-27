@@ -1,6 +1,6 @@
-from src.DStemplate.config.configuration import ConfigurationManager
-from src.DStemplate.components.data_transformation import DataTransformation
-from src.DStemplate import logger
+from src.Winequality.config.configuration import ConfigurationManager
+from src.Winequality.components.data_transformation import DataTransformation
+from src.Winequality import logger
 from pathlib import Path
 
 STAGE_NAME="Data Transformation Stage"

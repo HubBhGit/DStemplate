@@ -1,6 +1,6 @@
 import os
 import yaml
-from src.DStemplate import logger
+from src.Winequality import logger
 import json
 import joblib
 from ensure import ensure_annotations

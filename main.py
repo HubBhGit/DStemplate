@@ -1,8 +1,8 @@
-from src.DStemplate import logger
-from src.DStemplate.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
-from src.DStemplate.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
-from src.DStemplate.pipeline.data_transformation_pipeline import DataTransformationTrainingPipeline
-from src.DStemplate.pipeline.model_trainer_pipeline import ModelTrainerTrainingPipeline
+from src.Winequality import logger
+from src.Winequality.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
+from src.Winequality.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
+from src.Winequality.pipeline.data_transformation_pipeline import DataTransformationTrainingPipeline
+from src.Winequality.pipeline.model_trainer_pipeline import ModelTrainerTrainingPipeline
 
 STAGE_NAME = "Data Ingestion stage"
 try:

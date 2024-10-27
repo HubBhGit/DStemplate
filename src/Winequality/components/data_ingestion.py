@@ -1,8 +1,8 @@
 import os
 import urllib.request as request
-from src.DStemplate import logger
+from src.Winequality import logger
 import zipfile
-from src.DStemplate.entity.config_entity import (DataIngestionConfig)
+from src.Winequality.entity.config_entity import (DataIngestionConfig)
 
 ## component-Data Ingestion
 
